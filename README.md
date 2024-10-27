@@ -1,4 +1,1 @@
-# Longitudinal-Missing-Data-Imputation
-This repository provides all codes implemented for longitudinal missing data imputation to predict disability stage of multiple sclerosis patients.
-To do this, three are different R packages namely ImputeTS, Jomo and Mice utilized to impute longitudinal missing data.
-
+# Longitudinal-Missing-Data-ImputationThis repository provides all codes implemented for longitudinal missing data imputationTo do this, three are different R packages namely ImputeTS, Jomo and Mice utilized in this task# Linear-Mix-Effect-ImputationThre is a R script called Mix Effect Imputation for applying Mix Effect Model as imputer for missing dataIt is a good method for a longitudinal data where for each subject, we have several observations (rows) collected in different dates.to apply this model, we need below data: 1) Id 2) time (the number of time has to be the same for all subject id, for example if we have three observations for subject id 1, we need to have three observations for subject id 2)3) Predictor variable
